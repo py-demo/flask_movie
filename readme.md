@@ -47,7 +47,6 @@ wheel        0.30.0
 
 #### structure
 <pre>
-app.py
 manage.py
 app
   models.py
