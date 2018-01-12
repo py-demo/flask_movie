@@ -50,6 +50,7 @@ wheel        0.30.0
 app.py
 manage.py
 app
+  models.py
   conf
     config.py
   admin
