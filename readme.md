@@ -47,25 +47,16 @@ wheel        0.30.0
 
 #### structure
 <pre>
+test.py
 manage.py
-app
+app -
   models.py
-  conf
-    config.py
-  admin
-    forms.py
-    views.py
-  home
-    forms.py
-    views.py
-  template
-    admin
-      index.html
-    home
-      index.html
-  static
-    css
-      app.css
-    js
-      app.js
+  admin +
+  home +
+  template -
+    admin +
+    home +
+  static -
+    css +
+    js +
 </pre>
